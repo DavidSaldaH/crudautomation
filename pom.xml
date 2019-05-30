@@ -28,7 +28,7 @@
             <url>http://dl.bintray.com/serenity/maven</url>
         </pluginRepository>
     </pluginRepositories>
-    
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.jbehave/jbehave-core -->
         <dependency>
