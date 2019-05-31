@@ -3,17 +3,20 @@ package stepsdefinitions;
 import com.google.gson.JsonObject;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.junit.Assert;
+import org.junit.runner.RunWith;
 
 import java.util.List;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
+@RunWith(SerenityRunner.class)
 public class CrudSteps {
     Response res;
 
